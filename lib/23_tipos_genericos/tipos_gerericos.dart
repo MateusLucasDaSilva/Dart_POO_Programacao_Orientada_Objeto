@@ -1,14 +1,11 @@
 void main() {
-
   final caixaBola = Caixa<Bola>();
   caixaBola.adicionarItem(Bola());
   print(caixaBola.altura());
 
-
   final caixaBoneca = Caixa<Boneca>();
   caixaBoneca.adicionarItem(Boneca());
   print(caixaBoneca.altura());
-
 }
 
 abstract class Iten {
